@@ -1,0 +1,50 @@
+
+
+package axi_pkg;
+
+`define DATA_WIDTH 32
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "axi_config.sv"
+`include "axi_transaction.sv"
+`include "axi_base_sequence.sv"
+`include "axi_sanity_seq.sv"
+`include "axi_fixed_seq.sv"
+`include "axi_narrow_fixed_seq.sv"
+`include "axi_outstanding_fixed_seq.sv"
+`include "axi_incr_seq.sv"
+`include "axi_incr_wr_seq.sv"
+`include "axi_exclusive_incr_seq.sv"
+`include "axi_outstanding_incr_seq.sv"
+`include "axi_narrow_incr_seq.sv"
+`include "axi_wrap_seq.sv"
+`include "axi_narrow_wrap_seq.sv"
+`include "axi_outstanding_wrap_seq.sv"
+`include "axi_slave_sequence.sv"
+`include "axi_master_sequencer.sv"
+`include "axi_slave_sequencer.sv"
+`include "axi_virtual_sequencer.sv"
+//`include "axi_virtual_sequence.sv"
+`include "axi_master_driver.sv"
+`include "axi_slave_driver.sv"
+`include "axi_master_monitor.sv"
+`include "axi_slave_monitor.sv"
+//`include "axi_exclusive_monitor.sv"
+`include "axi_storage.sv"
+`include "axi_master_agent.sv"
+`include "axi_slave_agent.sv"
+`include "axi_coverage.sv"
+`include "axi_scoreboard.sv"
+`include "axi_env.sv"
+`include "axi_base_test.sv"
+`include "axi_fixed_test.sv"
+`include "axi_incr_test.sv"
+`include "axi_narrow_test.sv"
+`include "axi_wrap_test.sv"
+`include "axi_out_of_order_test.sv"
+`include "axi_outstanding_test.sv"
+`include "axi_interleaving_test.sv"
+`include "axi_exclusive_test.sv"
+
+endpackage
